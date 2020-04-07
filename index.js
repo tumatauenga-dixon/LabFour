@@ -7,14 +7,11 @@ binary(5) ➞ "101"
 binary(10) ➞ "1010"
 // 1*2 + 1*8 = 10 */
 
-var input = (11)
 
-function convertNum () {
-    let decimalNum = number  => {
-        return (number >>> 0).toString(2);
-    }
-let binaryNum = decimalNum (input)
-console.log(binaryNum)
+function binary(num) {
+    console.log(num.toString(2))
 }
 
-convertNum()
+binary(1);
+binary(5);
+binary(10);
